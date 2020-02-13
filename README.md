@@ -26,6 +26,7 @@ Y debería decir que se está usando la versión 12.16.0, en cuyo caso está tod
 http://download.redis.io/releases/redis-5.0.7.tar.gz
 
 2.-Ahora tenemos que descomprimirlo en algún sitio y desde el CMD teclear lo siguiente:
+
 	npm init --yes
 	npm -g install redis
 
