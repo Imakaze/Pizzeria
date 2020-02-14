@@ -55,6 +55,3 @@ NPM es el Node Package Manager que instalamos anteriormente. Cuando le deis empe
 	https://www.postman.com/
 	
 2.- Instalamos y ejecutamos.
-
-<a href="https://www.anaconda.com/distribution/#download-section" rel="nofollow">https://www.anaconda.com/distribution/#download-section</a>
-		
