@@ -1,7 +1,7 @@
-#Cómo instalar REDIS y .NODE
+**Cómo instalar .NODE, REDIS, REDILY y POSTMAN
 
 
-#INSTALAR NODE
+**INSTALAR NODE
 
 1.-Descargar NODE desde su página oficial. Será la última versión actual 12.16.0 para tener todos el mismo:
 
@@ -19,7 +19,7 @@ Y debería decir que se está usando la versión 12.16.0, en cuyo caso está tod
 
 
 
-#INSTALAR REDIS
+**INSTALAR BASE DE DATOS REDIS
 
 1.- Descargar REDIS para Windows:
 
@@ -35,11 +35,11 @@ Y debería decir que se está usando la versión 12.16.0, en cuyo caso está tod
 
 NPM es el Node Package Manager que instalamos anteriormente. Cuando le deis empezará a descargarlo e instalarlo.
 
-#INSTALAR GESTOR DE REDIS
+**INSTALAR GESTOR DE REDIS (REDILY)
 
 1.- Descargamos la versión Windows del programa Redily desde su web:
 
-	https://www.redily.app/download/win
+	([https://www.redily.app/download/win])
 	
 2.- Instalamos normalmente (si Windows bloquea el archivo le damos a "Más información" y después a "Ejecutar de todas formas".
 
@@ -48,7 +48,7 @@ NPM es el Node Package Manager que instalamos anteriormente. Cuando le deis empe
 4.-Si tenemos el servidor de Redis abierto se conectará enseguida y veremos nuestro servidor.
 
 
-#INSTALAR POSTMAN
+**INSTALAR POSTMAN
 
 1.- Vamos a su web y descargamos la App:
 
