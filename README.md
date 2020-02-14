@@ -49,3 +49,9 @@ NPM es el Node Package Manager que instalamos anteriormente. Cuando le deis empe
 
 
 #INSTALAR POSTMAN
+
+1.- Vamos a su web y descargamos la App:
+
+	https://www.postman.com/
+	
+2.- Instalamos y ejecutamos.
