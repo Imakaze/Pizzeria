@@ -5,7 +5,7 @@
 
 1.-Descargar NODE desde su página oficial. Será la última versión actual 12.16.0 para tener todos el mismo:
 
-	[Descargar NODE](https://nodejs.org/dist/v12.16.0/node-v12.16.0-x64.msi/).
+	https://nodejs.org/dist/v12.16.0/node-v12.16.0-x64.msi/
 
 El proceso de instalación es sencillo pero hay que fijarse y no instalar Chocolatery cuando nos pida si lo queremos. Viene por defecto desmarcado así que dadle todo el rato a siguiente y ya está.
 
@@ -55,3 +55,6 @@ NPM es el Node Package Manager que instalamos anteriormente. Cuando le deis empe
 	https://www.postman.com/
 	
 2.- Instalamos y ejecutamos.
+
+	Este sitio se construyó usando [GitHub Pages](https://pages.github.com/).
+		
