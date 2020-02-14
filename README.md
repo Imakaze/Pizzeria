@@ -5,7 +5,7 @@
 
 1.-Descargar NODE desde su página oficial. Será la última versión actual 12.16.0 para tener todos el mismo:
 
-https://nodejs.org/dist/v12.16.0/node-v12.16.0-win-x64.zip
+https://nodejs.org/dist/v12.16.0/node-v12.16.0-x64.msi
 
 El proceso de instalación es sencillo pero hay que fijarse y no instalar Chocolatery cuando nos pida si lo queremos. Viene por defecto desmarcado así que dadle todo el rato a siguiente y ya está.
 
