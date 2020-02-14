@@ -39,7 +39,7 @@ NPM es el Node Package Manager que instalamos anteriormente. Cuando le deis empe
 
 1.- Descargamos la versión Windows del programa Redily desde su web:
 
-	[https://www.redily.app/download/win](https://www.redily.app/download/win)
+	https://www.redily.app/download/win
 	
 2.- Instalamos normalmente (si Windows bloquea el archivo le damos a "Más información" y después a "Ejecutar de todas formas".
 
