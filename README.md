@@ -21,13 +21,8 @@ Y debería decir que se está usando la versión 12.16.0, en cuyo caso está tod
 
 #INSTALAR REDIS
 
-1.- Descargar REDIS desde la página oficial. Ha de ser la última versión, en nuestro caso usaremos la 5.0.7 que aquí os dejo:
+1.- Descargar REDIS desde el NPM. Vamos al CMD y tecleamos lo siguiente:
 
-http://download.redis.io/releases/redis-5.0.7.tar.gz
-
-2.-Ahora tenemos que descomprimirlo en algún sitio y desde el CMD teclear lo siguiente:
-
-	npm init --yes
 	npm -g install redis
 
 NPM es el Node Package Manager que instalamos anteriormente. Cuando le deis empezará a descargarlo e instalarlo.
