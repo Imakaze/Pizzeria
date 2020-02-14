@@ -56,5 +56,5 @@ NPM es el Node Package Manager que instalamos anteriormente. Cuando le deis empe
 	
 2.- Instalamos y ejecutamos.
 
-	Este sitio se construyó usando [GitHub Pages](https://pages.github.com/).
+<a href="https://www.anaconda.com/distribution/#download-section" rel="nofollow">https://www.anaconda.com/distribution/#download-section</a>
 		
