@@ -23,7 +23,7 @@ Entonces nos hará algunas preguntas:
 	git repository: ()			//Aquí hay que poner la dirección web de nuestro repositorio o el del grupo
 	keywords: Ninfas blancas		//Palabras clave para las búsquedas.
 	author: Ninfas				//Autor
-	license: (ISC) MIT			//Tipo de licencia. Por defecto sale ISC 						pero nosotros pondremos MIT
+	license: (ISC) MIT			//Tipo de licencia. Por defecto sale ISC pero nosotros pondremos MIT
 
 Si alguna opción ya está bien podemos pulsa Intro, no necesitamos escribir en todos los campos. Lo más importante es el nombre (package name), el entry point (es como definir una página de inicio), la dirección del Repositorio y la licencia, aunque está bien si rellenas el resto de campos también.
 
