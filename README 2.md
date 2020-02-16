@@ -18,7 +18,7 @@ Entonces nos hará algunas preguntas:
 	package name: (pizzeria)		//El nombre del proyecto.
 	version: (1.0.0)			//La versión
 	description: Ninfas blancas		//Una descripción cualquiera
-	entry point: (index.js) server.js	//El archivo de entrada, en nuestro caso 											pondremos server.js porque vamos a hacer 											un servidor
+	entry point: (index.js) server.js	//El archivo de entrada, en nuestro caso pondremos server.js porque vamos a hacer un servidor
 	test command:				//Dejar en blanco
 	git repository: ()			//Aquí hay que poner la dirección web de 						nuestro repositorio o el del grupo
 	keywords: Ninfas blancas		//Palabras clave para las búsquedas.
