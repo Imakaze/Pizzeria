@@ -1,0 +1,29 @@
+{
+  "name": "pizzeria",
+  "version": "1.0.0",
+  "description": "Ninfas blancas",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Imakaze/Pizzeria.git"
+  },
+  "keywords": [
+    "Pizzeria",
+    "de",
+    "las",
+    "Ninfas",
+    "Blancas"
+  ],
+  "author": "Ninfas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Imakaze/Pizzeria/issues"
+  },
+  "homepage": "https://github.com/Imakaze/Pizzeria#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
