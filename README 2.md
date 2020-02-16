@@ -20,7 +20,7 @@ Entonces nos hará algunas preguntas:
 	description: Ninfas blancas		//Una descripción cualquiera
 	entry point: (index.js) server.js	//El archivo de entrada, en nuestro caso pondremos server.js porque vamos a hacer un servidor
 	test command:				//Dejar en blanco
-	git repository: ()			//Aquí hay que poner la dirección web de 						nuestro repositorio o el del grupo
+	git repository: ()			//Aquí hay que poner la dirección web de nuestro repositorio o el del grupo
 	keywords: Ninfas blancas		//Palabras clave para las búsquedas.
 	author: Ninfas				//Autor
 	license: (ISC) MIT			//Tipo de licencia. Por defecto sale ISC 						pero nosotros pondremos MIT
