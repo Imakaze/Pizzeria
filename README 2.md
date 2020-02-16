@@ -1,4 +1,4 @@
-﻿**Cómo iniciar un proyecto con GIT
+**Cómo iniciar un proyecto con GIT
 
 1.- Teniendo Node instalado, creamos la carpeta donde vayamos a tener el proyecto. Podemos crearla desde el escritorio o directamente desde la Consola de Comandos (CMD). En este ejemplo usaremos c:\Ninfas.
 
@@ -27,7 +27,7 @@ Entonces nos hará algunas preguntas:
 
 Si alguna opción ya está bien podemos pulsa Intro, no necesitamos escribir en todos los campos. Lo más importante es el nombre (package name), el entry point (es como definir una página de inicio), la dirección del Repositorio y la licencia, aunque está bien si rellenas el resto de campos también.
 
-Una vez rellenemos el último campo nos pedirá confirmación. Por defecto sale en YES así que no cambiamos nada y le damos a intro.
+Una vez rellenemos el último campo nos pedirá confirmación. Por defecto sale en YES así que no cambiamos nada y le damos a intro. Si aquí quisiéramos tener en nuestro ordenador un repositorio que ya existe en el CMD escribiríamos "git clone" y se descargaría en la carpeta donde le diésemos la orden.
 
 Veremos que nos ha creado en la carpeta un archivo llamado package.json.
 
