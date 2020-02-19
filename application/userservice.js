@@ -1,8 +1,10 @@
-﻿const UserService = require('./domain/user');
-UserService
-register(dto);{
-let user = Userservice.create(dto);
+﻿const User = require('../domain/user')
+class UserService {
+    register(dto) {
+        return User.create(dto);
+    }
 }
-   
-module.exports=UserService *from()
+
+
+module.exports =UserService
 

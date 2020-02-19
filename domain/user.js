@@ -4,8 +4,8 @@ class User{
         this.password=dto.password;
         this.email = dto.email;
     }
-    static Create(dto){
+    static create(dto){
         return new User(dto)
     }
 }
-export default User *from()
+module.exports =User;
