@@ -5,7 +5,7 @@ const app = express();
 var requirejs = require('requirejs');
 const { check, validationResult } = require('express-validator');
 require = require("esm")(module/*, options*/);
-module.exports = require("./server.js");
+module.exports = require("./main.js")
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));

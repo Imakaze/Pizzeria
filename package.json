@@ -1,5 +1,4 @@
 {
-  
   "@std/esm": "cjs",
   "name": "pizzeria",
   "version": "1.0.0",
