@@ -42,20 +42,20 @@ Si nos fijamos en el archivo package.json ahora debería mostrar Express como de
 
 4.- Ahora tenemos que crear el archivo "server.js". Abrimos el bloc de nota y pegamos esto:
 
-var express = require('express');
-var app = express();
+	var express = require('express');
+	var app = express();
 
-app.get('/', function (req, res) {
-  res.send('¡Ninfas Blancas!');
-});
+	app.get('/', function (req, res) {
+ 	 res.send('¡Ninfas Blancas!');
+	});
 
-app.listen(3000, function () {
-  console.log('Example app listening on port 3000!');
-});
+	app.listen(3000, function () {
+ 	 console.log('Example app listening on port 3000!');
+	});
 
-5.- Guardamos el archivo como tipo "Todos los archivos" con el nombre "server.js".
+	5.- Guardamos el archivo como tipo "Todos los archivos" con el nombre "server.js".
 
-6.- Para comprobar que va bien ponemos en la consola:
+	6.- Para comprobar que va bien ponemos en la consola:
 	
 	node server.js
 
