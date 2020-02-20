@@ -7,7 +7,9 @@ const { check, validationResult } = require('express-validator');
 app.use(bodyParser.json());
 
 app.post('/register', [
-  check('email').isEmail(), 
+  check('email').normalizeEmail().isEmail(),
+  check('password').isLength({min: 5, max: 10}),
+  check('name').isLength({min:3, max:10}),
 ], (req, res) => {
 
   const errors = validationResult(req);

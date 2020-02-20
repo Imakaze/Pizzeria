@@ -29,6 +29,7 @@
     "express": "^4.17.1",
     "express-validator": "^6.4.0",
     "npm-user-service": "0.0.0",
+    "redis": "^3.0.2",
     "server.js": "^1.0.0",
     "uuid": "^3.4.0"
   }
