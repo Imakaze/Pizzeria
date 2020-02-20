@@ -3,8 +3,9 @@ const bodyParser = require('body-parser');
 const UserService = require('./application/userservice');
 const app = express();
 const { check, validationResult } = require('express-validator');
-
 app.use(bodyParser.json());
+const redis = require("./infraestructure/userrepository");
+
 
 app.post('/register', [
   check('email').normalizeEmail().isEmail(),
