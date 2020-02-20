@@ -14,7 +14,6 @@ app.post('/register', [
   if (!errors.isEmpty()) {
     return res.status(400).json({ errors: errors.array() });
   }
-
   var service = new UserService();
   let response = service.register(req.body);
   res.end(JSON.stringify(response));
@@ -24,3 +23,6 @@ app.post('/register', [
 app.listen(3000, function () {
   console.log('¡Puerto 3000 abierto!');
 })
+
+
+

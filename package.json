@@ -1,5 +1,4 @@
 {
-  "@std/esm": "cjs",
   "name": "pizzeria",
   "version": "1.0.0",
   "description": "Ninfas blancas",
@@ -26,17 +25,10 @@
   },
   "homepage": "https://github.com/Imakaze/Pizzeria#readme",
   "dependencies": {
-    "@hapi/joi": "^17.1.0",
-    "@std/esm": "^0.26.0",
     "body-parser": "^1.19.0",
-    "domain": "0.0.1",
-    "esm": "^3.2.25",
     "express": "^4.17.1",
     "express-validator": "^6.4.0",
     "npm-user-service": "0.0.0",
-    "requirejs": "^2.3.6",
-    "schema-validation": "0.0.15",
-    "schema-validator": "^3.3.1",
     "server.js": "^1.0.0",
     "uuid": "^3.4.0"
   }

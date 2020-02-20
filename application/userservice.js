@@ -1,9 +1,13 @@
 ﻿const User = require('../domain/user')
 class UserService {
     register(dto) {
-        return User.create(dto);
+        var user = User.create(dto);
+        //grabar en redis
+        return {
+            name:user.name,
+            email:user.email
+        }
     }
 }
-
 
 module.exports =UserService
