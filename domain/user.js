@@ -1,6 +1,6 @@
 const uuid = require('uuid');
 const crypto = require('crypto');
-
+ 
 class User{
     constructor(dto){
         this.id = uuid()

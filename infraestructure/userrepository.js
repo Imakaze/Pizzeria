@@ -1,12 +1,12 @@
 const redis = require("redis");
 const client = redis.createClient();
-
-client.on("error", function(error) {
-  console.error(error);
-});
-
-client.set("key", "value", redis.print);
-client.get("key", redis.print);
-
-module.exports = redis
-module.exports = client
+ 
+ 
+class UserRepository{
+    add(user){
+        client.set(user.id, JSON.stringify(user),function(){
+            console.log(arguments);
+        });
+    }
+}
+module.exports = UserRepository
