@@ -4,7 +4,7 @@ const UserService = require('./application/userservice');
 const app = express();
 const { check, validationResult } = require('express-validator');
 const multer = require('multer');
-const upload = multer();
+const upload = multer({dest: 'uploads/'});
 const csv = require('csvtojson');
 const Duplex = require('stream').Duplex;
 const PizzaService=require('./application/pizzaservice');
@@ -43,11 +43,13 @@ app.post('/ingredients', upload.any(), function (req, res, next) {
   })
 
 })
-app.post('/pizzas/image', upload.any(), function (req, res) {
+app.post('/pizzas/image', upload.single('productImage'), (req, res) => {
+  console.log(req.file);
   var pizzaService = new PizzaService();
   pizzaService.addImage(req.files[0].buffer);
-  res.end();
+  res.end(); 
 })
+
 app.listen(3000, function () {
   console.log('¡Puerto 3000 abierto!');
 })
