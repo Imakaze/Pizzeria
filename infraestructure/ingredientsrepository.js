@@ -9,7 +9,7 @@ client.on('connect', function() {
     console.log('Redis no está ejecutándose ' + err);
      });
 
-class UserRepository{
+class IngredientsRepository{
     add(user){
         client.set(user.id, JSON.stringify(user),function(){
             console.log(arguments);
@@ -17,4 +17,4 @@ class UserRepository{
     }
     
 }
-module.exports = UserRepository;
+module.exports = IngredientsRepository;
