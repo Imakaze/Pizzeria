@@ -16,4 +16,4 @@ class User{
         return new User(dto)
     }
 }
-module.exports = User;
+module.exports =User;
