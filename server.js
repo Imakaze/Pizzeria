@@ -1,28 +1,37 @@
 ﻿const express = require('express')
 const bodyParser = require('body-parser');
-const UserService = require('./application/userservice');
+const multer = require('multer')
+const upload = multer()
+const csv = require('csvtojson');
+const Duplex = require('stream').Duplex;
+const IngredientsService =require ('./application/IngredientsService')
+const userController = require('./controlador/usercontroller')
+ 
 const app = express();
-const { check, validationResult } = require('express-validator');
-
+ 
 app.use(bodyParser.json());
-
-app.post('/register', [
-  check('email').isEmail(), 
-], (req, res) => {
-
-  const errors = validationResult(req);
-  if (!errors.isEmpty()) {
-    return res.status(400).json({ errors: errors.array() });
-  }
-  var service = new UserService();
-  let response = service.register(req.body);
-  res.end(JSON.stringify(response));
-
-});
-
-app.listen(3000, function () {
-  console.log('¡Puerto 3000 abierto!');
+userController(app);
+ 
+ 
+app.post('/ingredients', upload.any(), function (req, res){
+   let stream = new Duplex();
+  stream.push(req.files[0].buffer);
+  stream.push(null);
+ 
+  var result = csv({
+    noheader: false,
+    delimiter:",", 
+    eol:"\n"
+  }).fromStream(stream).subscribe((json) => {
+    console.log(json);
+    var json = new IngredientsService();
+    res.end();
+  })
+ 
+ 
 })
-
-
-
+ 
+   
+  app.listen(3000, function () {
+    console.log('¡Puerto 3000 abierto!');
+  })

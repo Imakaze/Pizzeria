@@ -7,6 +7,16 @@
         {
             "type": "node",
             "request": "launch",
+            "name": "Crear Admin",
+            "program": "${workspaceFolder}/addadmin.js",
+            "args":[],
+            "skipFiles": [
+                "<node_internals>/**"
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
             "name": "Launch Program",
             "skipFiles": [
                 "<node_internals>/**"
