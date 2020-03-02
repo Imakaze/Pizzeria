@@ -1,16 +1,13 @@
-const Ingredients = require('../domain/Ingredients')
+const Ingredient = require('../domain/Ingredients')
 const IngredientsRepository = require('../infraestructure/IngredientsRepository')
+
+
 class IngredientsService {
-    register(dto) {
-        var Ingredients = Ingredients.create(dto);
-        //grabar en redis
-        var ingredientsRepository = new IngredientsRepository();
-        ingredientsRepository.add(Ingredients);
-        return {
-            name:Ingredients.name,
-            price:Ingredients.price
-        }
+    addRange(ingredients) {        
+        var ingredientsDomain = ingredients.map(i=>Ingredient.create(i));                       
+        var ingredientsRepository= new IngredientsRepository();
+        ingredientsRepository.addRange(ingredients);
     }
 }
- 
-module.exports =IngredientsService
+module.exports = IngredientsService
+
